@@ -1,0 +1,42 @@
+@import '../components/header';
+@import '../components/section';
+@import '../components/footer';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(213, 215, 218);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    
+
+    .parrafo1,
+    .parrafo2,
+    .parrafo3 {
+        flex-direction: column;
+    }
+
+    .parrafo1 img,
+    .parrafo2 img,
+    .parrafo3 img {
+        width: 100%; 
+        height: auto;
+        margin: 10px 0; 
+        border: 5px solid rgb(88, 87, 86);
+    }
+
+    .video1,
+    .video2,
+    .video3 {
+        width: 100%;
+    }
+}
