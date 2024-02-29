@@ -220,24 +220,18 @@ body {
   background-color: rgb(213, 215, 218);
 }
 
-@media only screen and (max-width: 768px) {
-  .parrafo1,
-  .parrafo2,
-  .parrafo3 {
+@media (max-width: 767px) {
+  .parrafo1, .parrafo2, .parrafo3 {
     flex-direction: column;
+    text-align: center;
   }
-  .parrafo1 img,
-  .parrafo2 img,
-  .parrafo3 img {
+  .noticias {
     width: 100%;
-    height: auto;
-    margin: 10px 0;
+    margin-bottom: 10px;
     border: 5px solid rgb(88, 87, 86);
   }
-  .video1,
-  .video2,
-  .video3 {
-    width: 100%;
+  .video1, .video2, .video3 {
+    margin-top: 10px;
   }
 }
 
