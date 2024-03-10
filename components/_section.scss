@@ -1,7 +1,10 @@
 
 
 
-
+.subtitulo
+{
+color: white;
+}
 .container .texto 
 {
    width: 70%;
@@ -35,6 +38,7 @@ p
 {
    font-family:  'Nunito', sans-serif;
 }
+
 .imagen1
 {
     width: 350px;
@@ -60,7 +64,6 @@ p
     background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
     margin: 20px;  
     padding: 10px;  
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;  
@@ -70,15 +73,7 @@ p
     max-width: 100%;
 }
 
-h2 {
-    color: #333;
-}
 
-p {
-    color: #110e10;
-    font-size: large;  
-    margin-right: 0;  
-}
 
 .enlace-video a {
     text-decoration: none;
@@ -119,7 +114,7 @@ h2 {
 
 p {
     justify-content: center;
-    color: #110e10;
+    color: #1d1d1d;
     font-size: x-large;
     margin-right: 20px;
 }
@@ -141,6 +136,19 @@ p {
     border-radius: 5px;
     margin-top: 20px;
     margin-right: 50px;  
+}
+
+
+.card-body
+{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+.card-footer
+{
+    background-color: #FAD961;
+background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
 }
 
 
@@ -218,5 +226,6 @@ p {
 
 .table :hover
 {
-    background-color: beige;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 }

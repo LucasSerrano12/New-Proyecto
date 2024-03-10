@@ -3,7 +3,7 @@ body {
 }
 
 nav ul li a {
-  color: rgb(230, 225, 235);
+  color: rgb(237, 236, 238);
   text-decoration: none;
 }
 
@@ -25,6 +25,10 @@ nav a {
 
 nav ul a:hover {
   background-color: #3d0d28;
+}
+
+.subtitulo {
+  color: white;
 }
 
 .container .texto {
@@ -78,7 +82,6 @@ p {
   background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
   margin: 20px;
   padding: 10px;
-  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -86,16 +89,6 @@ p {
 
 .contenido-noticia {
   max-width: 100%;
-}
-
-h2 {
-  color: #333;
-}
-
-p {
-  color: #110e10;
-  font-size: large;
-  margin-right: 0;
 }
 
 .enlace-video a {
@@ -134,7 +127,7 @@ h2 {
 
 p {
   justify-content: center;
-  color: #110e10;
+  color: #1d1d1d;
   font-size: x-large;
   margin-right: 20px;
 }
@@ -156,6 +149,16 @@ p {
   border-radius: 5px;
   margin-top: 20px;
   margin-right: 50px;
+}
+
+.card-body {
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+.card-footer {
+  background-color: #FAD961;
+  background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 }
 
 .imgjugadores {
@@ -215,7 +218,8 @@ p {
 }
 
 .table :hover {
-  background-color: beige;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 }
 
 .footer {
@@ -291,18 +295,6 @@ body {
   .buttons a {
     margin-right: 0;
     margin-bottom: 10px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .seccion-noticia {
-    margin: 10px;
-    padding: 15px;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-  p {
-    font-size: medium;
   }
 }
 
